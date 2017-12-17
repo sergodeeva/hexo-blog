@@ -1,4 +1,4 @@
-[submodule "themes/cactus-dark"]
-	path = themes/cactus-dark
-	url = https://github.com/probberechts/cactus-dark.git
+[submodule "themes/cactus-white"]
+	path = themes/cactus-white
+	url = git@github.com:sergodeeva/cactus-white.git
 	branch = master
