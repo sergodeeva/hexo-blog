@@ -48,16 +48,15 @@ Before I started, I did not have any experience with `hexo`, and had no idea abo
   timezone: Asia/Singapore
   ```
 ## Change theme
-  Now it is time to beautify your blog. You can choose one of a few dozens free themes available [here](https://hexo.io/themes/). I am currently using [cactus-dark](https://github.com/probberechts/cactus-dark) theme. Below is a few commands you need to run one by one in the Terminal in order to switch theme from default one to the `cactus-dark`:
+  Now it is time to beautify your blog. You can choose one of a few dozens free themes available [here](https://hexo.io/themes/). I am currently using `cactus-white` that is based on a[cactus-dark](https://github.com/probberechts/cactus-dark) theme. Below is a few commands you need to run one by one in the Terminal in order to switch theme from default one to the `cactus-white`:
   ```
-  git submodule add -b master git@github.com:sergodeeva/cactus-dark.git themes/cactus-dark
-  git submodule init
+  git clone git@github.com:sergodeeva/cactus-white.git themes/cactus-white
   npm install hexo-pagination --save
   ```
   After you installed a new theme, you need to change the `theme` property in the `_config.yml` file:
   ```
   # theme: landscape
-  theme: cactus-dark
+  theme: cactus-white
   ```
   To see the changes at http://localhost:4000/, you need to re-generate blog by running `hexo generate`, and then restart the hexo server (stop it and then run `hexo server`).
 ## Write a new post
